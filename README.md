@@ -11,11 +11,11 @@
 pip install -r requirements.txt
 ```
 ### Self-Play
-To generate a self-play dataset using the latest model generation, use the Self_Play.ipynb notebook.
+To generate a self-play dataset using the latest model generation, use the Self_play.py or Parellel.py.
 
 ### Train
 #### Reinforcement Learning
-1. **Generate Dataset**: Use *Self_Play.ipynb* to create a self-play dataset.
+1. **Generate Dataset**: Use *Self_Play.py* to create a self-play dataset.
 2. **Train Model**: Use *Train.ipynb* to train your model with the dataset generated in Step 1.
 - Repeat this process iteratively to improve your model.
 #### Supervised Learning

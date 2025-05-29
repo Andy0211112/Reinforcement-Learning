@@ -28,7 +28,7 @@ from glob import glob
 # T = Trainer(C)
 # play_data_filename_tmpl = "self_play_dataset_041812%s.json"
 # # T.train_from_data(agent=agent, play_data_filename_tmpl=play_data_filename_tmpl)
-# ---------------Train from old----------------
+# ---------------Train from old data----------------
 C = Config()
 init_model_name = ''
 pattern = os.path.join(C.model_dir, 'train_%s' % "*")

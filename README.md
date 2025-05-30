@@ -11,15 +11,15 @@
 pip install -r requirements.txt
 ```
 ### Self-Play
-To generate a self-play dataset using the latest model generation, use the Self_play.py or Parellel.py.
+To generate a self-play dataset using the latest model generation, use the Self_play.py or Parallel_self_play.py.
 
 ### Train
 #### Reinforcement Learning
-1. **Generate Dataset**: Use *Self_Play.py* to create a self-play dataset.
-2. **Train Model**: Use *Train.ipynb* to train your model with the dataset generated in Step 1.
+1. **Generate Dataset**: Use *Self_Play.py* or *Parallel_self_play.py* to create a self-play dataset.
+2. **Train Model**: Use *Train.ipynb*  to train your model with the dataset generated in Step 1.
 - Repeat this process iteratively to improve your model.
 #### Supervised Learning
-1. **Download Dataset**: Obtain chess game datasets from [FICS Games](https://www.ficsgames.org/download.html) or other sources. Convert the data into .json format (e.g., [(chess.fen, chess.Move, value), ...]).
+1. **Download Dataset**: Obtain chess game datasets from [FICS Games](https://www.ficsgames.org/download.html) or other sources. Convert the data into .json format (e.g., [(chess.fen, chess.Move, value), ...], you can generate self play data first to see the format).
 2. **Train Model**: Place the converted dataset in the game_data folder and train your model using *Train.ipynb*.
 ### Evaluate
 Use *Evaluate.ipynb* to:

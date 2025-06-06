@@ -25,6 +25,9 @@ To generate a self-play dataset using the latest model generation, use the Self_
 Use *Evaluate.ipynb* to:
 - Play against your model.
 - Observe self-play matches between versions of your model.
+### Result
+Self-play result after 100k games of  self training:
+![Chess Game](images/chess_game.gif)
 
 ## References
 - [Reinforcement Learning Notes](https://deepanshut041.github.io/Reinforcement-Learning/notes/00_Introduction_to_rl/)

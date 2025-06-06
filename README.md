@@ -34,6 +34,9 @@ Self-play result after 100k games of  self training:
 
 ![Chess Game](images/chess_game.gif)
 
+### Note
+https://hackmd.io/@andy0211112/B1cXYZ1Zle
+
 ## References
 - [Reinforcement Learning Notes](https://deepanshut041.github.io/Reinforcement-Learning/notes/00_Introduction_to_rl/)
 - [Chess Deep RL GitHub Repository](https://github.com/zjeffer/chess-deep-rl)

@@ -18,6 +18,7 @@ To generate a self-play dataset using the latest model generation, use the Self_
 1. **Generate Dataset**: Use *Self_Play.py* or *Parallel_self_play.py* to create a self-play dataset.
 2. **Train Model**: Use *Train.py*  to train your model with the dataset generated in Step 1.
 - Repeat this process iteratively to improve your model.
+
 Or you can use *Loop.py* to loop this process directly.
 #### Supervised Learning
 1. **Download Dataset**: Obtain chess game datasets from [FICS Games](https://www.ficsgames.org/download.html) or other sources. Convert the data into .json format (e.g., [(chess.fen, chess.Move, value), ...], you can generate self play data first to see the format).
